@@ -1,6 +1,2 @@
 #!/bin/bash
-if [ ! -f "iacta" ]; then
-  echo "File 'iacta' not found!"
-  exit 1
-fi
 head -n 3 iacta | tail -n 1
