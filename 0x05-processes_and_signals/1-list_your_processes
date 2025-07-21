@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# This script displays all running processes in a user-friendly hierarchical format
+# This script displays all running processes (including those without a TTY) 
+# in a user-oriented, human-readable format with process hierarchy
 
 ps -eo user,pid,ppid,%cpu,%mem,cmd --forest
