@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-its a shebang line which tells the system how to run the script.
+#its a shebang line which tells the system how to run the script.
