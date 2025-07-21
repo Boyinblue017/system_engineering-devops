@@ -1,2 +1,7 @@
 #!/usr/bin/env bash
-#its a shebang line which tells the system how to run the script.
+# This script prints "Best School" exactly 10 times using a for loop
+
+for i in {1..10}
+do
+  echo "Best School"
+done
